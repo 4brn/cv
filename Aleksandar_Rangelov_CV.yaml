@@ -1,0 +1,138 @@
+cv:
+  name: Aleksandar Rangelov
+  location: Sofia, Bulgaria
+  phone: tel:+359-88-413-3458
+  email: 4brn@proton.me
+  # website: https://yourwebsite.com/
+  social_networks:
+    - network: GitHub
+      username: 4brn
+  sections:
+    profile:
+      - I'm a programming student from Sofia, Bulgaria. When I'm not programming, you'll find me practicing Jiu-Jitsu. I'm passionate about technology, curious by nature, and I love the challenge of turning ideas into reality. Eager to learn and grow, I'm excited to contribute meaningfully to your vibrant community!
+    education:
+      - institution: Sofia Vocational High School of Electronics "John Atanasov"
+        # degree: ''
+        area: Systems Programming
+        start_date: 2020-09
+        end_date: present 
+    languages:
+      - label: Bulgarian
+        details: Native
+      - label: English
+        details: C2
+    projects:
+      - name: Schwarz IT Hackathon 2024
+        date: '[4brn/Schwarz](https://github.com/4brn/Schwarz)'
+        highlights:
+          - Winning Team Member of “Git Commit Crew”.
+          - Tasked with optimizing supermarket navigation. 
+          - Collaborated on developing a full-stack application, enabling users to find the shortest path between products.
+          - Tech Stack - React, Framer Motion, shadcn/ui, Go.
+    courses:
+      - name: The Odin Project
+        date: '[theodinproject.com](https://theodinproject.com)'
+        highlights: 
+          - A full-stack curriculum, supported by a passionate open source community. 
+      - name: The Git & GitHub Bootcamp
+        date: '[udemy.com](https://www.udemy.com/certificate/UC-f33a0883-5934-4a5b-87f6-a9379ad524ca/)'
+        highlights: 
+          - Learned the essentials of Git & GitHub.
+      - name: TryHackMe
+        date: '[tryhackme.com](https://tryhackme.com/p/4brn)'
+        highlights: 
+          - Understood various netoworking and cybersecurity concepts.
+    skills:
+      - label: Non-technical
+        details: Curiosity, Teamwork
+      - label: Languages
+        details: Javascript, Python, Go, SQL, Bash
+      - label: Technologies
+        details: React, PostgreSQL, Docker, Linux
+
+design:
+  theme: classic
+  font: Source Sans 3
+  font_size: 12pt
+  page_size: a4paper
+  color: '#8a2bff'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified-with-no-hyphenation
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 0 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in:
+    - Experience
+
+locale_catalog:
+  phone_number_format: national 
+  date_style: "MONTH_ABBREVIATION YEAR" 
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: to
+
+rendercv_settings:
+  render_command:
+    output_folder_name: output
+    pdf_path: Aleksandar_Rangelov_CV.pdf 
+    # latex_path: aleksandar_rangelov_cv.tex
+    html_path: Aleksandar_Rangelov_CV.html
+    markdown_path: "null"
+    dont_generate_html: false 
+    dont_generate_markdown: false 
+    dont_generate_png: false
